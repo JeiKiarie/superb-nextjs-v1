@@ -59,8 +59,8 @@ section {
 	padding-bottom: 0.5rem;
 }
 .hero {
-	height: calc(100vh - 8rem);
-	margin-top: 9rem;
+	height: calc(100vh - 5.2rem);
+	margin-top: 5.5rem;
 	position: relative;
 	display: flex;
 	column-gap: 2rem;

@@ -13,29 +13,33 @@ const Navbar = () => {
 			left={0}
 			top={0}
 			right={0}
-			height={'8rem'}
+			height={'5.2rem'}
 			justify={'space-between'}
 			align={'center'}
 			boxShadow="md"
 			paddingInline="1rem"
 			zIndex={10}>
 			<Box>
-				<Link href="/">
-					<Image
-						src={Logo}
-						width={150}
-						height={150}
-						alt="superb care ltd logo"
-					/>
-				</Link>
-				<Text
-					fontSize="1.8rem"
-					fontWeight={700}
-					as="h1"
-					color="#51649F"
-					mt="0">
-					SUPERB CARE SERVICES LTD
-				</Text>
+				<Flex
+					justifyContent={'center'}
+					alignItems={'center'}>
+					<Link href="/">
+						<Image
+							src={Logo}
+							width={150}
+							height={150}
+							alt="superb care ltd logo"
+						/>
+					</Link>
+					<Text
+						fontSize="1.8rem"
+						fontWeight={700}
+						as="h1"
+						color="#51649F"
+						mt="0">
+						SUPERB CARE SERVICES LTD
+					</Text>
+				</Flex>
 			</Box>
 			<Box color="green.600">
 				<Flex
