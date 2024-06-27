@@ -13,7 +13,7 @@ const Navbar = () => {
 			left={0}
 			top={0}
 			right={0}
-			height={'5.2rem'}
+			height={'4.5rem'}
 			justify={'space-between'}
 			align={'center'}
 			boxShadow="md"
@@ -26,8 +26,8 @@ const Navbar = () => {
 					<Link href="/">
 						<Image
 							src={Logo}
-							width={150}
-							height={150}
+							width={130}
+							height={130}
 							alt="superb care ltd logo"
 						/>
 					</Link>
