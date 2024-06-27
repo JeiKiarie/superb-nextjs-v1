@@ -48,6 +48,7 @@ const Home = () => {
 					// paddingInline={'1rem'}
 				>
 					<h1>Supported Living and Elderly Care</h1>
+					<p>Test text</p>
 					<div
 						className="divider"
 						// orientation="horizontal"
